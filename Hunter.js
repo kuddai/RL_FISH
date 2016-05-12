@@ -114,7 +114,7 @@ function createHunterClass(Agent, world, sprite) {
     };
 
     Hunter.prototype.update = function () {
-        console.log("weights", this.weights);
+        //console.log("weights", this.weights);
         //console.log("orient", this.orient);
         this.updateFood();
         this.allHunters = world.getKind("hunter", this);
